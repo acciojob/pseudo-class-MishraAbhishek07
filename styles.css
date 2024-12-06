@@ -1,3 +1,4 @@
+/*  your css code here. If applicable */
 /* Container styling */
 #container {
   margin: 20px;
@@ -8,16 +9,16 @@
 
 /* Pseudo-element before the container */
 #container::before {
-  content: "Before Element";
-  color: #f00; /* Red color */
+  content: "Before Element ";
+  color: #f00;
   font-size: 20px;
-  display: block;
+  display: ;
 }
 
 /* Pseudo-element after the container */
 #container::after {
-  content: "After Element";
-  color: #f00; /* Red color */
+  content: " After Element";
+  color: #f00;
   font-size: 20px;
-  display: block;
+  /* display: block; */
 }
